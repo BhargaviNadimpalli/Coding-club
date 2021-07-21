@@ -5,10 +5,8 @@ do
 if [ -d backup ]
 then
            echo "folder is already exists"
-else
            mkdir backup
-fi
+
            mv $oldfiles.txt $backup
            echo  'bhargavi latha'
-           echo "aaaaaaaaaaaaaaaa"
 done
